@@ -1,28 +1,18 @@
 var questions = [
   {
-    title: "Commonly used data types DO NOT include:",
-    choices: ["strings", "booleans", "alerts", "numbers"],
-    answer: "alerts"
+    title: "1) Inside which HTML element do we put the JavaScript?",
+    choices: ["<javascript>", "<js>", "<script>", "<scripting>"],
+    answer: "<script>"
   },
   {
-    title: "The condition in an if / else statement is enclosed within ____.",
-    choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-    answer: "parentheses"
+    title: "2) Where is the correct place to insert a JavaScript?",
+    choices: ["The <body> section", "The <head> section", "Both", "None"],
+    answer: "Both"
   },
   {
-    title: "Values of and Object are written as:",
-    choices: ["name:value pairs", "name/value pairs", "name-value pairs", "name,value pairs"],
+    title: "3) How do you round the number 7.25, to the nearest whole number?",
+    choices: ["Math.rnd(7.25)", "round(7.25)", "rnd(7.25)", "Math.round(7.25)"],
     answer: "name:value pairs"
-  },
-  {
-    title: "The contents of an array are contained within:",
-    choices: ["[ ]", "' '", "( )", "{ }"],
-    answer: "[ ]"
-  },
-  {
-    title: "Which of the following is not a keyword for creating a variable?",
-    choices: ["let", "var", "const", "thing"],
-    answer: "thing"
   }
 ];
 

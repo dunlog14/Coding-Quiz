@@ -34,7 +34,7 @@ var resetBtn = document.getElementById("reset-btn");
 
 var questionTracker = 0;
 var score = 0;
-var timeLeft = 50;
+var timeLeft = 30;
 var quizEnd = false;
 var highScores = [];
 
@@ -89,7 +89,7 @@ resetBtn.addEventListener("click", function() {
   endGame.classList.add("hide");
   questionTracker = 0;
   score = 0;
-  timeLeft = 50;
+  timeLeft = 30;
   quizEnd = false;
 });
 
@@ -130,7 +130,7 @@ answerBtns.addEventListener("click", function(event) {
   } else if (event.target.innerText !== questions[questionTracker].answer) {
     alert("wrong");
     questionTracker++;
-    timeLeft -= 10;
+    timeLeft -= 4;
     loadNextQuestion();
   }
 });
