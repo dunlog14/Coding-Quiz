@@ -4,7 +4,6 @@
 
 I need to take a timed quiz on JavaScript fundamentals that stores high scores
 
-
 ## Acceptance Criteria
 
 GIVEN I am taking a code quiz
@@ -18,5 +17,3 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
-
-![1675547880167](image/README/1675547880167.png)
